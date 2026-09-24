@@ -8,6 +8,6 @@ package veterinaria;
  *
  * @author ON
  */
-public class Persona {
-    //comentario
+public abstract class Persona {
+    
 }
