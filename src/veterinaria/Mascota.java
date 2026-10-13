@@ -8,7 +8,7 @@ package veterinaria;
  *
  * @author ON
  */
-public class Mascota {
+public class Mascota implements Resumible {
 
     private String nombre;
     private String especie;
@@ -70,7 +70,8 @@ public class Mascota {
     public void setDuenio(Cliente duenio) {
         this.duenio = duenio;
     }
-
+    
+    @Override
     public void mostrarResumen() {
         System.out.println("Mascota: " + nombre);
         System.out.println("Especie: " + especie);
